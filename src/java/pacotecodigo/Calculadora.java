@@ -51,12 +51,11 @@ public class Calculadora {
         this.resultado = resultado;
     }
 
-    //double
     public double somar() {
-        return resultado = valor1 + valor2;
+        resultado = valor1 + valor2;
+        return resultado;
 
     }
-    //double
 
     public double subtrair() {
         
@@ -64,13 +63,6 @@ public class Calculadora {
 
     }
 
-    /*double
-    public String dividir(String a, String b) {
-        double div = (Double.parseDouble(a) / Double.parseDouble(b));
-        this.setResultado(resultado);
-        return resultado;
-
-    }*/
     public double dividir() {
         resultado =  valor1 / valor2;
         return resultado;
